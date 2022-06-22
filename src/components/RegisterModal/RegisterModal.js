@@ -15,12 +15,12 @@ export const RegisterNow = styled.div`
   margin-bottom: 3rem;
 `;
 
-const RegisterModal = ({show, closeModal, openModal, height}) => {
+const RegisterModal = ({show, closeModal, openModal}) => {
     const [showRegister, setShowRegister] = useState(true);
 
     return (
       <>
-        {!showRegister && (
+        {showRegister && (
           <RegisterNow className="fixed-bottom contain">
             <Button 
               className="btn btn-gradient secondary-text" 

@@ -12,7 +12,6 @@ import RegisterModal from "./components/RegisterModal/RegisterModal";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(1920);
-  const [windowHeight, setWindowHeight] = useState(1080)
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
@@ -23,9 +22,7 @@ function App() {
 
   const updateDimensions = () => {
     const w = window.innerWidth;
-    const h = window.innerHeight;
     setWindowWidth(w);
-    setWindowHeight(h);
   };
 
   return (
@@ -34,7 +31,6 @@ function App() {
       <div className="contain">
         <RegisterModal 
           show={showModal}
-          height={windowHeight} 
           closeModal={() => setShowModal(false)} 
           openModal={() => setShowModal(true)}
         />

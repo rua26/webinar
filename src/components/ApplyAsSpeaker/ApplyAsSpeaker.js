@@ -35,18 +35,7 @@ const ApplyAsSpeaker = () => {
       id="apply-as-speaker" 
       className="section-scroll"
     >
-
-      <div
-        className="pipedriveWebForms"
-        data-pd-webforms="https://webforms.pipedrive.com/f/6WfGTu1ydVop966sqIESJzGXPA3g6VOlZR0jNBcyZxhUG8jZBtEzfn8MnLlY28Bpir"
-        key={Date.now()}
-      >
-          <script
-            src="https://webforms.pipedrive.com/f/loader"
-            defer
-          ></script>
-      </div>
-        {/* <Row>
+        <Row>
           <Col lg={6} md={12} className="d-flex align-items-center">
               <DescriptionPart className="d-flex flex-column justify-content-center">
                   <div className="text-part">
@@ -63,45 +52,12 @@ const ApplyAsSpeaker = () => {
               </DescriptionPart>
           </Col>
           <Col lg={6} md={12}>
-              <FormPart>
-                  <FormRow>
-                      <FormCol>
-                          <p>First Name *</p>
-                          <InputForm></InputForm>
-                      </FormCol>
-                      <FormCol>
-                          <p>Last Name *</p>
-                          <InputForm></InputForm>
-                      </FormCol>
-                  </FormRow>
-                  <FormRow>
-                      <FormCol>
-                          <p>Your company email address *</p>
-                          <InputForm type="email"></InputForm>
-                      </FormCol>
-                  </FormRow>
-                  <FormRow>
-                  <FormCol>
-                      <p>Your company *</p>
-                      <InputForm type="text"></InputForm>
-                  </FormCol>
-                  <FormCol>
-                      <p>Your job title *</p>
-                      <InputForm type="text"></InputForm>
-                  </FormCol>
-                  </FormRow>
-                  <FormRow>
-                      <FormCol>
-                          <p>What do you want to share with our AI community?</p>
-                          <InputForm style={{ height: "200px" }}></InputForm>
-                      </FormCol>
-                  </FormRow>
-                  <SubmitButton>
-                    <h3>Submit</h3>
-                  </SubmitButton>
-              </FormPart>
+              <embed src="https://webforms.pipedrive.com/f/6WfGTu1ydVop966sqIESJzGXPA3g6VOlZR0jNBcyZxhUG8jZBtEzfn8MnLlY28Bpir"
+                height="1000"
+                width= "100%"
+              />
           </Col>
-        </Row> */}
+        </Row>
     </ApplyAsSpeakerComponent>
   );
 };

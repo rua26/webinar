@@ -41,7 +41,7 @@ const HeroHeader = () => {
                 clearInterval(countDown);
             };
         }, 1000);
-    }, []);
+    }, [countDownDate]);
 
     
     return (

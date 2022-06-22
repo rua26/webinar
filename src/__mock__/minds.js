@@ -2,10 +2,10 @@ const minds = [
     {   
         "id": 1,
         "src": "/images/great_mind_1.png",
-        "name": "Noelle Silver", 
-        "position": "Partner, AI & Analytics at IBM | Microsoft MVP in AI",
+        "name": "Ali Arsanjani", 
+        "position": "PhD. Title: Director | ex-AWS WW Tech Leader & Chief Principal AI/ML| ex-CTO IBM | VP AI/ML",
         "country": "US", 
-        "company": "IBM",
+        "company": "Google",
     },
     {   
         "id": 2,
@@ -78,6 +78,14 @@ const minds = [
         "name": "ELIANA CANTON", 
         "position": "Head of Data Science", 
         "company": "THE WALT DISNEY LATAM",
+    },
+    {   
+        "id": 11,
+        "src": "/images/great_mind_1.png",
+        "name": "Noelle Silver", 
+        "position": "Partner, AI & Analytics at IBM | Microsoft MVP in AI",
+        "country": "US", 
+        "company": "IBM",
     },
 ];
 

@@ -40,7 +40,7 @@ const Footer = () => {
                 </Col>
                 <Col lg={4}/>
 
-                <Col lg={3} xs={12} className="d-flex flex-column justify-content-end align-items-start">
+                <Col lg={3} xs={12} className="d-flex flex-column justify-content-end align-items-center">
                     <div>
                         <HiOutlineLocationMarker color='white' size="2rem" />
                         <span style={{ marginLeft: "0.5rem" }}>34th ST STE 1018, NY, USA</span>

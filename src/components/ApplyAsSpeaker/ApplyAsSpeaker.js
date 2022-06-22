@@ -7,27 +7,7 @@ import { Ellipse } from "../Ellipse";
 import {
   ApplyAsSpeakerComponent,
   DescriptionPart,
-  FormPart,
-  FormCol,
-  FormRow,
-  SubmitButton,
-  InputForm,
 } from "./style";
-
-// const script_form = (
-//   <Script
-//     id={Date.now()}
-//     src="https://webforms.pipedrive.com/f/loader"
-//   ></Script>
-// );
-
-export  const form_div = (
-  <div
-    key={Date.now()}
-    className="pipedriveWebForms"
-    data-pd-webforms="https://webforms.pipedrive.com/f/6WfGTu1ydVop966sqIESJzGXPA3g6VOlZR0jNBcyZxhUG8jZBtEzfn8MnLlY28Bpir"
-  ></div>
-);
 
 const ApplyAsSpeaker = () => {
   return (

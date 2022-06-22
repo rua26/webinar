@@ -1,0 +1,28 @@
+.test {
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+}
+
+.modalDialog {
+    max-width: 700px;
+    padding: 0 47px;
+}
+
+.body-modal {
+    padding: 1rem 3rem;
+}
+
+.title-modal {
+    font-weight: 400;
+    font-size: var(--large-text);
+    color: var(--secondary-bg);
+}
+
+.btn-submit {
+    width: 25;
+    border: 1px solid var(--secondary-bg);
+}
+
+.header-modal .btn-close {
+    color: var(--light) !important;
+}

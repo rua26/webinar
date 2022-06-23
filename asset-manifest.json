@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c18bb50c.css",
-    "main.js": "/static/js/main.19ec817b.js",
-    "static/js/787.11a0f2b0.chunk.js": "/static/js/787.11a0f2b0.chunk.js",
-    "static/media/hero_header_video.mp4": "/static/media/hero_header_video.b8422011036077fe0987.mp4",
-    "static/media/AI_worldwide.mp4": "/static/media/AI_worldwide.a210436f05fb43730815.mp4",
-    "static/media/orgnanizer_video.mp4": "/static/media/orgnanizer_video.07f470b7931e74763514.mp4",
-    "static/media/webinar_1.jpg": "/static/media/webinar_1.3cdcfe4083e0e5a9fb1e.jpg",
-    "static/media/icielgothammediumregular.woff": "/static/media/icielgothammediumregular.20f0fa115b9d3c3264f0.woff",
-    "static/media/icielgothamultraregular.woff": "/static/media/icielgothamultraregular.52f78168af484d680454.woff",
-    "static/media/iCielGothamBold.woff": "/static/media/iCielGothamBold.d811b95b2324ba6000b6.woff",
-    "static/media/carl.jpeg": "/static/media/carl.45e2b43400b7729cea07.jpeg",
-    "static/media/muni.jpeg": "/static/media/muni.7427693d055cc0f56e97.jpeg",
-    "static/media/johanas.jpeg": "/static/media/johanas.ab42e521fdac1893c621.jpeg",
-    "static/media/noel.jpeg": "/static/media/noel.2c855af2c675bcf611ee.jpeg",
-    "static/media/david.jpeg": "/static/media/david.123309e39f7d23865914.jpeg",
-    "index.html": "/index.html",
-    "main.c18bb50c.css.map": "/static/css/main.c18bb50c.css.map",
-    "main.19ec817b.js.map": "/static/js/main.19ec817b.js.map",
-    "787.11a0f2b0.chunk.js.map": "/static/js/787.11a0f2b0.chunk.js.map"
+    "main.css": "/webinar/static/css/main.68e6ef7e.css",
+    "main.js": "/webinar/static/js/main.75dde013.js",
+    "static/js/787.11a0f2b0.chunk.js": "/webinar/static/js/787.11a0f2b0.chunk.js",
+    "static/media/hero_header_video.mp4": "/webinar/static/media/hero_header_video.b8422011036077fe0987.mp4",
+    "static/media/AI_worldwide.mp4": "/webinar/static/media/AI_worldwide.a210436f05fb43730815.mp4",
+    "static/media/orgnanizer_video.mp4": "/webinar/static/media/orgnanizer_video.07f470b7931e74763514.mp4",
+    "static/media/webinar_1.jpg": "/webinar/static/media/webinar_1.3cdcfe4083e0e5a9fb1e.jpg",
+    "static/media/icielgothammediumregular.woff": "/webinar/static/media/icielgothammediumregular.20f0fa115b9d3c3264f0.woff",
+    "static/media/icielgothamultraregular.woff": "/webinar/static/media/icielgothamultraregular.52f78168af484d680454.woff",
+    "static/media/iCielGothamBold.woff": "/webinar/static/media/iCielGothamBold.d811b95b2324ba6000b6.woff",
+    "static/media/carl.jpeg": "/webinar/static/media/carl.45e2b43400b7729cea07.jpeg",
+    "static/media/muni.jpeg": "/webinar/static/media/muni.7427693d055cc0f56e97.jpeg",
+    "static/media/johanas.jpeg": "/webinar/static/media/johanas.ab42e521fdac1893c621.jpeg",
+    "static/media/noel.jpeg": "/webinar/static/media/noel.2c855af2c675bcf611ee.jpeg",
+    "static/media/david.jpeg": "/webinar/static/media/david.123309e39f7d23865914.jpeg",
+    "index.html": "/webinar/index.html",
+    "main.68e6ef7e.css.map": "/webinar/static/css/main.68e6ef7e.css.map",
+    "main.75dde013.js.map": "/webinar/static/js/main.75dde013.js.map",
+    "787.11a0f2b0.chunk.js.map": "/webinar/static/js/787.11a0f2b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c18bb50c.css",
-    "static/js/main.19ec817b.js"
+    "static/css/main.68e6ef7e.css",
+    "static/js/main.75dde013.js"
   ]
 }

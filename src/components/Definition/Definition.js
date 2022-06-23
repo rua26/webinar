@@ -9,7 +9,7 @@ const Definition = () => {
     return (
         <DefinitionSection
             id="definition"
-            className="section-scroll"
+            className="section-scroll contain"
         >
             <Row>
                 <Col xs={12} lg={6}>

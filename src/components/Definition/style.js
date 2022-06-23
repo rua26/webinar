@@ -17,7 +17,7 @@ export const DefinitionSection = styled.section`
         height: 58rem;
         video {
             height: 40vh;
-            width: 23rem;
+            width: 100%;
             transform: scale(1);
         }
     };

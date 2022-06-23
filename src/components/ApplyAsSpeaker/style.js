@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const ApplyAsSpeakerComponent = styled.section`
+export const ApplyAsSpeakerComponent = styled.div`
     height: auto;
     margin-top: 15rem;
 `;

@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const FooterComponent = styled.footer`   
+    // position: sticky;
+    // top; 0;
     scroll-snap-align: end;
     border-top: 2px solid gray;
     padding: 2rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     span {
         font-size: var(--small-text);
     }

@@ -5,6 +5,8 @@ import { DefinitionSection } from './style';
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col";
 
+import worldWideVideo from "../../assets/videos/AI_worldwide.mp4";
+
 const Definition = () => {
     return (
         <DefinitionSection
@@ -12,14 +14,14 @@ const Definition = () => {
             className="section-scroll contain"
         >
             <Row>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className="d-flex justify-content-center align-items-center">
                     <video autoPlay loop muted>
-                        <source src="/videos/AI_worldwide.mp4" type="video/mp4" width="16" height="9"/>
+                        <source src={worldWideVideo} type="video/mp4" width="16" height="9"/>
                         Your browser does not support the video tag.
                     </video>
                 </Col>
 
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className="d-flex flex-column justify-content-center">
                     <h5 className="title-content left">What's Worldwide <br></br> AI Webinar?</h5>
                     <div style={{ textAlign: "justify" }}>
                         <div className="title-description">

@@ -14,7 +14,6 @@ export const DefinitionSection = styled.section`
     }
 
     @media (max-width: 1300px) {
-        height: 58rem;
         video {
             height: 40vh;
             width: 100%;

@@ -14,6 +14,7 @@ export const TextTitle = {
 
 export const WhyChooseComponent = styled.section`
     // padding-bottom: 10vh;
+    height: auto;
     h1 {
         margin-bottom: 6.25rem;
     }

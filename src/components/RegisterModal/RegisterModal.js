@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
@@ -12,24 +12,22 @@ export const modalStyle = {
 export const RegisterNow = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 3rem;
+  top: calc(100vh - 90px);
+  z-index: 10;
 `;
 
 const RegisterModal = ({show, closeModal, openModal}) => {
-    const [showRegister, setShowRegister] = useState(true);
 
     return (
       <>
-        {showRegister && (
-          <RegisterNow className="fixed-bottom contain">
-            <Button 
-              className="btn btn-gradient secondary-text" 
-              onClick={openModal}
-            >
-              Register now
-            </Button>
-          </RegisterNow>
-        )}
+        <RegisterNow className="position-sticky contain">
+          <Button 
+            className="btn btn-gradient secondary-text" 
+            onClick={openModal}
+          >
+            Register now
+          </Button>
+        </RegisterNow>
         <Modal 
           show={show} 
           onHide={closeModal} 

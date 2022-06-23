@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const GreadMindComponent = styled.section`
+    margin-bottom: 10rem;
     h1 {
         padding-bottom: 4rem;
     }

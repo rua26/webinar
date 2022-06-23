@@ -10,6 +10,8 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { TbWorld, TbMail } from "react-icons/tb";
 
+import logo from "../../../assets/images/logo.png";
+
 const Footer = () => {
     return (
         <FooterComponent>
@@ -17,7 +19,7 @@ const Footer = () => {
                 <Col lg={5} xs={12} className="d-flex align-items-start flex-column">
                     <LogoCol>
                         <a href="/">
-                            <img src="Frame.png" alt="logo" />
+                            <img src={logo} alt="logo" />
                         </a>
                         <p>
                         A global provider of high-quality AI training data 

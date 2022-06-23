@@ -11,6 +11,34 @@ import { Pagination } from "../Webinar/style";
 import minds from "../../__mock__/minds";
 import ReactCountryFlag from "react-country-flag";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import styled from "styled-components";
+
+import ali from "../../assets/images/ali.jpeg";
+import aravin from "../../assets/images/aravin.jpeg";
+import carl from "../../assets/images/carl.jpeg";
+import david from "../../assets/images/david.jpeg";
+import johanas from "../../assets/images/johanas.jpeg";
+import leon from "../../assets/images/leon.jpeg";
+import maria from "../../assets/images/maria.jpeg";
+import muni from "../../assets/images/muni.jpeg";
+import nam_ma from "../../assets/images/nam_ma.jpeg";
+import noel from "../../assets/images/noel.jpeg";
+
+export const Img = styled.div`
+  aspect-ratio: 1;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  position: relative;
+  background: url(${({ src }) => (src ? `${src}` : null)});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--light);
+  @media (max-width: 729px) {
+    height: 450px;
+};
+`;
 
 const GreateMinds = ({width}) => {
     const [activeID, setActiveID] = useState(null);
@@ -22,11 +50,59 @@ const GreateMinds = ({width}) => {
 
 
     useEffect(() => {
-        const newRange = width >= 429 ? 4 : 1;
+        let newRange;
+        if (width <= 429) {
+            newRange = 1; 
+        } else if (width > 429 && width < 1024) {
+            newRange = 3;
+        } else {
+            newRange = 4;
+        };
         setRange(newRange);
         setStartIndex(0);
         setEndIndex(newRange);
     }, [width]);
+
+    const getImageSrc = (nameImg) => {
+        let srcImg;
+        switch(nameImg) {
+            case "ali":
+                srcImg = ali;
+                break;
+            case "aravin":
+                srcImg = aravin;
+                break;
+            case "carl":
+                srcImg = carl;
+                break;
+            case "david":
+                srcImg = david;
+                break;
+            case "johanas":
+                srcImg = johanas;
+                break;
+            case "leon":
+                srcImg = leon;
+                break;
+            case "maria":
+                srcImg = maria;
+                break;
+            case "muni":
+                srcImg = muni;
+                break;
+            case "nam_ma":
+                srcImg = nam_ma;
+                break;
+            case "noel":
+                srcImg = noel;
+                break;
+            default:
+                srcImg = noel;
+                break;
+        };
+        
+        return srcImg;
+    };
 
     const handleBackButtonClick = () => {
         if (startIndex === 0) return;
@@ -76,7 +152,8 @@ const GreateMinds = ({width}) => {
                     {minds.slice(startIndex, endIndex).map(({id, src, name, country, position, company}, index) => (
                         <Col 
                             xs={12}
-                            md={3}
+                            md={4}
+                            lg={3}
                             key={id}
                             onMouseEnter={() => handleMouseEnter(index)} 
                             onMouseLeave = {() => handleMouseLeave(index)} 
@@ -84,10 +161,10 @@ const GreateMinds = ({width}) => {
             
                         >
                             <div className={index === activeID ? "img-gradient" : ""}>
-                                <img 
+                                <Img 
                                     alt={name}
                                     className="w-100"
-                                    src={src}
+                                    src={getImageSrc(src)}
                                     style={{borderRadius: "16px"}}
                                 />
                             </div>

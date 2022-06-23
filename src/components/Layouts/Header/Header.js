@@ -6,6 +6,8 @@ import {
     HeaderComponent,
 } from "./style";
 
+import logo from "../../../assets/images/logo.png";
+
 export default function Header({openModal}) {
     return (
         <HeaderComponent>
@@ -13,7 +15,7 @@ export default function Header({openModal}) {
                 <Wrapper className="section-scroll justify-content-between">
                     <Wrapper>
                         <a href="/">
-                            <img src="./Frame.png" alt="logo"/>
+                            <img src={logo} alt="logo"/>
                         </a>
                     </Wrapper>
                     <Wrapper>

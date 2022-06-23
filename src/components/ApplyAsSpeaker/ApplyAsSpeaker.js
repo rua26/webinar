@@ -19,7 +19,7 @@ const ApplyAsSpeaker = () => {
           <Col lg={6} md={12} className="d-flex align-items-center">
               <DescriptionPart className="d-flex flex-column justify-content-center">
                   <div className="text-part">
-                    <h1 className="text-start title-content">Apply as Speaker</h1>
+                    <h1 className="text-start title-content">Apply as a Speaker</h1>
                     <p className="text-start">Worldwide AI Webinar aims to do an annual conference and pocket round table meetings 
                         in different countries across the world. Share your expertise and best practices with your colleagues. 
                         Be part of the AI great minds community!

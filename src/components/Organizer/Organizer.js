@@ -4,6 +4,8 @@ import { OrganizerSection } from './style';
 
 import { Col, Row } from 'react-bootstrap';
 
+import organizerVideo from "../../assets/videos/orgnanizer_video.mp4";
+
 
 const Organizer = () => {
     return (
@@ -12,7 +14,7 @@ const Organizer = () => {
             className="section-scroll"
         >
             <Row>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className="d-flex flex-column justify-content-center">
                     <h5 className="title-content left">Wow AI <br></br>The Organizer</h5>
                     <div style={{ textAlign: "justify" }}>
                         <div className="title-description">
@@ -27,9 +29,9 @@ const Organizer = () => {
                     </div>
                 </Col>
 
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className="d-flex justify-content-center align-items-center">
                     <video autoPlay loop muted>
-                        <source src="/videos/orgnanizer_video.mp4" type="video/mp4" width="988" height="904"/>
+                        <source src={organizerVideo} type="video/mp4" width="988" height="904"/>
                         Your browser does not support the video tag.
                     </video>
                 </Col>

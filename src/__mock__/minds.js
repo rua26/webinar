@@ -1,15 +1,15 @@
 const minds = [
     {   
         "id": 1,
-        "src": "/images/great_mind_1.png",
-        "name": "Ali Arsanjani", 
-        "position": "PhD. Title: Director | ex-AWS WW Tech Leader & Chief Principal AI/ML| ex-CTO IBM | VP AI/ML",
+        "src": "ali",
+        "name": "Ali Arsanjani, PhD", 
+        "position": "Director | ex-AWS WW Tech Leader & Chief Principal AI/ML| ex-CTO IBM | VP AI/ML",
         "country": "US", 
         "company": "Google",
     },
     {   
         "id": 2,
-        "src": "/images/great_mind_1.png",
+        "src": "noel",
         "name": "Noelle Silver", 
         "position": "Partner, AI & Analytics at IBM | Microsoft MVP in AI",
         "country": "US", 
@@ -17,7 +17,7 @@ const minds = [
     },
     {   
         "id": 3,
-        "src": "/images/great_mind_4.png",
+        "src": "johanas",
         "country": "US",
         "name": "Johannes Castner", 
         "position": "Venture Partner at Post Urban. Founder at CollectiWise. TEDx speaker", 
@@ -25,7 +25,7 @@ const minds = [
     },
     {   
         "id": 4,
-        "src": "/images/great_mind_3.png",
+        "src": "carl",
         "country": "MX",
         "name": "Carl Handlin", 
         "position": "Head of Data Science & Artificial Intelligence", 
@@ -33,7 +33,7 @@ const minds = [
     },
     {   
         "id": 5,
-        "src": "/images/great_mind_4.png",
+        "src": "leon",
         "country": "MX",
         "name": "León Palafox", 
         "position": "Head of Artificial Intelligence, Retail, Telco and Media", 
@@ -41,7 +41,7 @@ const minds = [
     },
     {   
         "id": 6,
-        "src": "/images/great_mind_4.png",
+        "src": "maria",
         "country": "MX",
         "name": "MARIA CRUZ", 
         "position": "Head of Data Science", 
@@ -49,7 +49,7 @@ const minds = [
     },
     {   
         "id": 7,
-        "src": "/images/great_mind_4.png",
+        "src": "",
         "country": "MX",
         "name": "ELIANA CANTON", 
         "position": "Head of Data Science", 
@@ -57,7 +57,7 @@ const minds = [
     },
     {   
         "id": 8,
-        "src": "/images/great_mind_2.png",
+        "src": "david",
         "name": "David Colwell", 
         "country": "AU",
         "position": "VP - Artificial Intelligence and Machine Learning", 
@@ -65,7 +65,7 @@ const minds = [
     },
     {   
         "id": 9,
-        "src": "/images/great_mind_4.png",
+        "src": "muni",
         "country": "ID",
         "name": "Muni Vinay Kamisetty", 
         "position": "Head of Data and Automation - Enterprise Tech", 
@@ -73,7 +73,7 @@ const minds = [
     },
     {   
         "id": 10,
-        "src": "/images/great_mind_4.png",
+        "src": "aravin",
         "country": "IN",
         "name": "Aravind Ganapathiraju", 
         "position": "VP, Applied AI", 
@@ -81,7 +81,7 @@ const minds = [
     },
     {   
         "id": 11,
-        "src": "/images/great_mind_4.png",
+        "src": "nam_ma",
         "country": "VN",
         "name": "Nam Ma", 
         "position": "Head of AI labs", 

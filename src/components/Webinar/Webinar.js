@@ -11,28 +11,30 @@ import {
     Speakers,
 } from './style';
 
+import webinar from "../../assets/images/webinar_1.jpg";
+import speaker from "../../assets/images/speaker_1.png";
 
 const agendas = ["", "", "", "", "", ""]
 
-const Webinar = () => {
+const Webinar = ({width}) => {
     const numAgendas = agendas.length;
     const [range, setRange] = useState(1);
     const [startIndex, setStartIndex] = useState(0);
     const [endIndex, setEndIndex] = useState(1);
-
+    
     useEffect(() => {
-        updateDimensions();
-        window.addEventListener("resize", updateDimensions);
-        return () => window.removeEventListener("resize",updateDimensions);
-    }, []);
-
-    const updateDimensions = () => {
-        const w = window.innerWidth;
-        const newRange = w >= 429 ? 4 : 1;
+        let newRange;
+        if (width <= 429) {
+            newRange = 1; 
+        } else if (width > 429 && width < 1024) {
+            newRange = 3;
+        } else {
+            newRange = 4;
+        };
         setRange(newRange);
         setStartIndex(0);
         setEndIndex(newRange);
-    };
+    }, [width]);
 
     const handleBackButtonClick = () => {
         if (startIndex === 0) return;
@@ -73,7 +75,7 @@ const Webinar = () => {
                      <Col lg={3} md={4} xs={12} key={index}>
                         <Card>
                             <img  
-                                src="/images/webinar_1.jpg"
+                                src={webinar}
                                 alt="first webinar"
                                 style={{width: "100%"}}
                             />
@@ -81,8 +83,8 @@ const Webinar = () => {
                                 <p>09:30 - 10:00</p>
                             </Timer>
                             <Speakers>
-                                <img src="/images/speaker_1.png" alt="first speaaker" width="46" height="46"></img>
-                                <img src="/images/speaker_1.png" alt="first speaaker" width="46" height="46"></img>
+                                <img src={speaker} alt="first speaaker" width="46" height="46"></img>
+                                <img src={speaker} alt="first speaaker" width="46" height="46"></img>
                             </Speakers>
                             <CardDescription>
                                 <div className="description-title">

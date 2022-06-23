@@ -7,6 +7,9 @@ import {
     HeroComponent,
 } from "./style";
 
+
+import heroVideo from "../../../assets/videos/hero_header_video.mp4";
+
 const HeroHeader = () => {
     const initialTime = {
         "d": 10,
@@ -48,7 +51,7 @@ const HeroHeader = () => {
         <div className="section-scroll mx-auto">
             <HeroComponent>
                     <video autoPlay loop muted>
-                        <source src="/videos/hero_header_video.mp4" type="video/mp4"/>
+                        <source src={heroVideo} type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                     <div className="hero-text-overlay">

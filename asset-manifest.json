@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/webinar/static/css/main.9ebc8008.css",
-    "main.js": "/webinar/static/js/main.11e1e82d.js",
-    "static/js/787.11a0f2b0.chunk.js": "/webinar/static/js/787.11a0f2b0.chunk.js",
-    "static/media/icielgothammediumregular.woff": "/webinar/static/media/icielgothammediumregular.20f0fa115b9d3c3264f0.woff",
-    "static/media/icielgothamultraregular.woff": "/webinar/static/media/icielgothamultraregular.52f78168af484d680454.woff",
-    "static/media/iCielGothamBold.woff": "/webinar/static/media/iCielGothamBold.d811b95b2324ba6000b6.woff",
-    "index.html": "/webinar/index.html",
-    "main.9ebc8008.css.map": "/webinar/static/css/main.9ebc8008.css.map",
-    "main.11e1e82d.js.map": "/webinar/static/js/main.11e1e82d.js.map",
-    "787.11a0f2b0.chunk.js.map": "/webinar/static/js/787.11a0f2b0.chunk.js.map"
+    "main.css": "/static/css/main.471259b3.css",
+    "main.js": "/static/js/main.65e397ec.js",
+    "static/js/787.11a0f2b0.chunk.js": "/static/js/787.11a0f2b0.chunk.js",
+    "static/media/icielgothammediumregular.woff": "/static/media/icielgothammediumregular.20f0fa115b9d3c3264f0.woff",
+    "static/media/icielgothamultraregular.woff": "/static/media/icielgothamultraregular.52f78168af484d680454.woff",
+    "static/media/iCielGothamBold.woff": "/static/media/iCielGothamBold.d811b95b2324ba6000b6.woff",
+    "index.html": "/index.html",
+    "main.471259b3.css.map": "/static/css/main.471259b3.css.map",
+    "main.65e397ec.js.map": "/static/js/main.65e397ec.js.map",
+    "787.11a0f2b0.chunk.js.map": "/static/js/787.11a0f2b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ebc8008.css",
-    "static/js/main.11e1e82d.js"
+    "static/css/main.471259b3.css",
+    "static/js/main.65e397ec.js"
   ]
 }
